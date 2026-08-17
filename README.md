@@ -27,7 +27,8 @@ cài đặt của máy. Màn hình chạy ở chế độ edge-to-edge.
 | `applicationId` | `com.tinhcd.esales` |
 | `namespace` | `com.tinhcd.esales` |
 | `minSdk` | 26 (Android 8.0 Oreo) |
-| `targetSdk` / `compileSdk` | 36 |
+| `targetSdk` | 36 |
+| `compileSdk` | 37 (bắt buộc bởi `androidx.core` 1.19.0 và `lifecycle` 2.11.0) |
 | Java source/target | 11 |
 | Gradle daemon toolchain | JDK 21 |
 
@@ -35,7 +36,7 @@ cài đặt của máy. Màn hình chạy ở chế độ edge-to-edge.
 
 - **Android Studio** bản hỗ trợ AGP 9.2 trở lên
 - **JDK 21** — Gradle daemon dùng toolchain 21, tự tải qua Foojay nếu máy chưa có
-- **Android SDK API 36**
+- **Android SDK API 37** (`compileSdk`), kèm API 36 cho `targetSdk`
 - Thiết bị thật hoặc emulator chạy **Android 8.0 (API 26)** trở lên
 
 ## Bắt đầu
